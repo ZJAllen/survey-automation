@@ -1,6 +1,18 @@
 # SurveyMonkey Automation
 
-Automate a simple SurveyMonkey form
+Automate a simple SurveyMonkey form. I try not to make any assumptions about what you do or don't know, so this should be a pretty thorough overview.
+
+# Getting started
+
+1. Navigate to a folder on your system, for example `Documents` or `Desktop`, where you want to save these files.
+2. If you have `git` installed:
+   1. Open a terminal window.
+   2. Type `git clone https://github.com/ZJAllen/survey-automation.git`, which will download all of the files into a folder called `survey-automation`.
+3. If you want to download the `zip` package:
+   1. Click the `Code` dropdown and select `Download ZIP`.
+   2. Unzip the folder and move it to wherever you'd like.
+4. In your terminal, navigate into the just-created folder: `cd survey-automation`
+5. Open the current directory in VS Code: `code .`
 
 # Installation
 
