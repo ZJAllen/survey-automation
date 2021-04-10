@@ -18,7 +18,8 @@ open_time = datetime(2021, 4, 7, 11, 50, 0)
 submit_time = datetime(2021, 4, 7, 11, 5, 0, 100)
 
 # Enter the survey URL here. This is just a dummy survey.
-survey_url = "https://www.surveymonkey.com/r/PZCCPLC"
+# survey_url = "https://www.surveymonkey.com/r/PZCCPLC"
+survey_url = "https://www.surveymonkey.com/r/ZK53G8T"
 
 # # These are just for testing. Uncomment as needed.
 # name_input = "Last, First"
@@ -44,10 +45,10 @@ while running:
 
             # # These are just for testing. I got tired of typing them in manually.
             # # Uncomment as needed.
-            # first_input = browser.find_elements_by_tag_name("input")[0]
-            # first_input.send_keys(name_input)
-            # second_input = browser.find_elements_by_tag_name("input")[1]
-            # second_input.send_keys(number_input)
+            first_input = browser.find_elements_by_tag_name("input")[0]
+            first_input.send_keys(name_input)
+            second_input = browser.find_elements_by_tag_name("textarea")[0]
+            second_input.send_keys(number_input)
 
             # Set the start bool to True to let the program know we've opened
             # the form and are waiting for the submit time
